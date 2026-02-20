@@ -32,9 +32,26 @@ import math
 # else:
 #     print('name looks good!')
 
-prices = [10, 20 , 30, 40, 50]
-total = 0
+# prices = [10, 20 , 30, 40, 50]
+# total = 0
 
-for price in prices:
-    total += price
-print(f'Total:{total}')
+# for price in prices:
+#     total += price
+# print(f'Total:{total}')
+
+# numbers = [2, 2, 2, 2, 10]
+
+# for x_count in numbers:
+#     output = ''
+#     for count in range(x_count):
+#         output += 'x'
+#     print(output)
+
+numbers = [5, 16, 69, 2, 4, 6]
+
+highest_number = numbers[0]
+
+for number in numbers:
+    if number > highest_number:
+        highest_number = number
+print(highest_number)
