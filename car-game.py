@@ -25,4 +25,3 @@ quite - to quit
         break
     else:
         print('idk what you talking about :)')
-
