@@ -6,4 +6,3 @@ df = pd.DataFrame(data)
 
 # Getting a statistical description of the data
 print(df.describe())
-
